@@ -1,6 +1,6 @@
 import socket
 s = ""
-ip_port = (127.0.0.1,3333)
+ip_port = ("127.0.0.1",3333)
 online_flag = False
 
 class socket_manager():
