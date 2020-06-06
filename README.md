@@ -8,7 +8,7 @@ You need to use Except logic at line 32.
 Socket object is declared as s which is global. This project will only work if implemented as a single independent thread.
 Example Code:
 #code starts here:
-
+```
 from threading import Thread
 
 '''JUST COPY PASTE HERE FROM PY FILE(smart_socket.py)'''
@@ -35,3 +35,4 @@ def start_socket_communication():
       return -1
       
 #example code ends here
+```
